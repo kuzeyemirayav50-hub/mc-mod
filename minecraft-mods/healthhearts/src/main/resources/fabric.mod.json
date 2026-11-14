@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "healthhearts",
+  "version": "${version}",
+  "name": "Health Hearts",
+  "description": "Oyuncuların canını kafalarının üstünde kalp olarak gösterir.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["healthhearts.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

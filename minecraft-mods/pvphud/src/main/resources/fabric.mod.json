@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvphud",
+  "version": "${version}",
+  "name": "PvP HUD",
+  "description": "FPS, ping, CPS, combo, reach, hedef canı, zırh dayanıklılığı ve eşya sayacı gösteren istemci tarafı HUD.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pvphud.PvpHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
